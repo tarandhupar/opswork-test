@@ -9,7 +9,7 @@ var app      = express();                               // create our app w/ exp
 	oppController = require('./service/controllers/oppController');
 
 //mongoose.connect('mongodb://localhost:27017/mean-marketplace');
- mongoose.connect('mongodb://52.6.233.79:27017/mean-marketplace'); 
+ mongoose.connect('mongodb://52.6.233.79:27017/mean-marketplace');
    // mongoose.connect('mongodb://127.0.0.1/mean-marketplace');     // connect to mongoDB database on modulus.io
 
     app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users

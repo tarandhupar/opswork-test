@@ -7,6 +7,6 @@ deploy:
   access_key_id: AKIAJVMHWZLOBIZLU5KA
   secret_access_key:
     secure: p17fpcTWy9Hy8dvMPLU2+QBNu5zf/U9L1Cy8JzswwFMTnxP8nLzseMaC0om/6JJXteQADilw0AAPz+Fknb69mgx6PDyFB6cwl6Zeh1xIeErPt3RXKWQzWqMUITWLJ3ZygFD0aSA2plIIkTWFCo4wzeYotskcfs5zq6NMfr2rdbI=
-  app-id: d9001a20-cf32-4922-9844-4ba66bb5f3dd
+  app-id: cceae6dc-a00d-4298-a9f3-794ab1f29358
   on:
     repo: tarandhupar/opswork-test

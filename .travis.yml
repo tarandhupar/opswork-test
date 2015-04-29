@@ -3,8 +3,10 @@ node_js:
 - '0.10'
 services: mongodb
 deploy:
-  app: mean-test-taran
-  provider: heroku	
-  api_key:
-    secure: AaMTpClEEeilDaO05CTPf7WI+vdDpHbrL7g5quFgRaVOyKn1PH1O3yWLJj60bP5TxMHx/qGR2krqMTWOFdCyb7ukK6fhJi2Ar1oazzyeJYtjCLqXjN1cU9/H5/ucLobvwvkOzENbYSjGOM3Z1U5VbMveMzymLGpFjOYicj+ixm4=
-
+  provider: opsworks
+  access_key_id: AKIAJVMHWZLOBIZLU5KA
+  secret_access_key:
+    secure: p17fpcTWy9Hy8dvMPLU2+QBNu5zf/U9L1Cy8JzswwFMTnxP8nLzseMaC0om/6JJXteQADilw0AAPz+Fknb69mgx6PDyFB6cwl6Zeh1xIeErPt3RXKWQzWqMUITWLJ3ZygFD0aSA2plIIkTWFCo4wzeYotskcfs5zq6NMfr2rdbI=
+  app-id: d9001a20-cf32-4922-9844-4ba66bb5f3dd
+  on:
+    repo: tarandhupar/opswork-test
